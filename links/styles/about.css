@@ -1,0 +1,22 @@
+body {
+	background: #333;
+	color: #fff;
+	font: 20px sans-serif;
+}
+
+.about-container{
+	margin: 10% auto 0%;
+}
+
+.about-container > h2{
+	color: violet;
+	text-align: center;
+}
+
+.about-container > p{
+	margin: auto 10%;
+	padding: 10px;
+	text-align: justify;
+	color: lightgrey;
+	text-transform: capitalize;
+}

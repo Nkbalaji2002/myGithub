@@ -1,0 +1,25 @@
+body{
+	background: #333;
+	color: #fff;
+	font: 20px sans-serif;
+}
+
+.product-container{
+	margin: 10% auto 0%;
+}
+
+.heading > h2{
+	text-align: center;
+	color: cyan;
+}
+
+.notes{
+	margin: auto 10%;
+	padding: 10px;
+}
+
+.notes > p{
+	text-align: justify;
+	color: lightgrey;
+	text-transform: capitalize;
+}

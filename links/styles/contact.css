@@ -1,0 +1,22 @@
+body{
+	background: #333;
+	color: #fff;
+	font: 20px sans-serif;
+}
+
+.contact-container {
+	margin: 10% auto 0%;
+}
+
+.contact-container >  h2 {
+	text-align: center;
+	color: coral;
+}
+
+.contact-container > p {
+	margin: auto 10%;
+	padding: 10px;
+	text-align: justify;
+	color: lightgrey;
+	text-transform: capitalize;
+}

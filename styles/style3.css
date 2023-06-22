@@ -1,0 +1,180 @@
+@media screen and (max-width: 600px)
+{
+	body {
+		background: blueviolet;
+		font-family: sans-serif;
+		text-align: center;
+	}
+
+	.container {
+		background: #2d2828f2;
+	}
+
+	.heading {
+		color: #efefef;
+		padding-top: 2%;
+		font-size: 1.2rem;
+	}
+
+	.heading > img {
+		float: left;
+		width: 40px;
+		position: fixed;
+		top: 5%;
+		left: 7%;
+		border-radius: 100%;
+		margin-left: 3%;
+	}
+
+	.heading > h2 {
+		text-align: right;
+		margin-right: 10%;
+	}
+
+	.links{
+		background: #494548;
+		text-align: left;
+	}
+
+	.links > ul{
+		font-size: 1rem;
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.links > ul > li {
+		margin: 2.4%;
+	}
+
+	.footer {
+		visibility: hidden;
+	}
+
+	a {
+		color: lightgrey;
+		text-decoration: none;
+	}
+
+	a:hover{
+		color: red;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px)
+{
+	body
+	{
+		background: darkviolet;
+		font-family: sans-serif;
+	}
+
+	.container >  .heading {
+		font-size: 1.23rem;
+		position: fixed;
+		left: 40px;
+		float: left;
+		text-align: center;
+		color: whitesmoke;
+		margin-left: 5%;
+	}
+
+	.heading > img {
+		float: left;
+		width: 40px;
+		position: fixed;
+		top: 4.2%;
+		left: 4.5%;
+		border-radius: 100%;
+	}
+
+	.container > .links{
+		float: right;
+		margin-right: 4%;
+	}
+
+	.container > .links > ul{
+		list-style: none;
+		display: flex;
+	}
+
+	.container > .links > ul > li {
+		margin: 10px;
+	}
+
+	a {
+		color: lightgrey;
+		text-decoration: none;
+	}
+
+	a:hover{
+		color: red;
+	}
+
+	.footer {
+		color: lightgrey;
+		position: fixed;
+		top: 90%;
+		left: 45%;
+	}
+}
+
+@media screen and (min-width: 1025px)
+{
+
+	body
+	{
+		background: blueviolet;
+		font-family: sans-serif;
+		
+	}
+
+	.container >  .heading {
+		font-size: 1.23rem;
+		position: fixed;
+		left: 40px;
+		float: left;
+		text-align: center;
+		color: whitesmoke;
+		margin-left: 5%;
+	}
+
+	.heading > img {
+		float: left;
+		width: 40px;
+		position: fixed;
+		top: 4.2%;
+		left: 4.5%;
+		border-radius: 100%;
+	}
+
+	.container > .links{
+		float: right;
+		margin-right: 4%;
+	}
+
+	.container > .links > ul{
+		list-style: none;
+		display: flex;
+	}
+
+	.container > .links > ul > li {
+		margin: 10px;
+	}
+
+	a {
+		color: lightgrey;
+		text-decoration: none;
+	}
+
+	a:hover{
+		color: red;
+	}
+
+	.footer {
+		color: lightgrey;
+		position: fixed;
+		top: 90%;
+		left: 45%;
+	}
+}
